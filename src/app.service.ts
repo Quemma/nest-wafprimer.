@@ -6,3 +6,6 @@ export class AppService {
     return 'Hello World!';
   }
 }
+getHello2(): {} {
+  return {message: 'Hello World!', title: 'My Greeting App'};
+  }

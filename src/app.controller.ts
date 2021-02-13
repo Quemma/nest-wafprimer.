@@ -10,3 +10,8 @@ export class AppController {
     return this.appService.getHello();
   }
 }
+@Get('hello2')
+@Render('index.html')
+getHello2(): {} {
+return this.appService.getHello2();
+}
